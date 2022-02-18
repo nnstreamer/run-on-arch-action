@@ -3,7 +3,7 @@ branding:
   icon: 'cpu'
   color: 'green'
 description: 'Run commands in a Linux container with a specific CPU architecture (armv6, armv7, aarch64, s390x, ppc64le, riscv64)'
-author: 'Umberto Raimondi, Elijah Shaw-Rutschman', 'ProtoByter'
+author: 'Umberto Raimondi, Elijah Shaw-Rutschman, ProtoByter'
 inputs:
   arch:
     description: 'CPU architecture: armv6, armv7, aarch64, s390x, ppc64le, riscv64.'
