@@ -1,12 +1,12 @@
-name: 'Run on architecture'
+name: 'Run on architecture (RISCV64 Alpine)'
 branding:
   icon: 'cpu'
   color: 'green'
-description: 'Run commands in a Linux container with a specific CPU architecture (armv6, armv7, aarch64, s390x, ppc64le)'
-author: 'Umberto Raimondi, Elijah Shaw-Rutschman'
+description: 'Run commands in a Linux container with a specific CPU architecture (armv6, armv7, aarch64, s390x, ppc64le, riscv64)'
+author: 'Umberto Raimondi, Elijah Shaw-Rutschman', 'ProtoByter'
 inputs:
   arch:
-    description: 'CPU architecture: armv6, armv7, aarch64, s390x, ppc64le.'
+    description: 'CPU architecture: armv6, armv7, aarch64, s390x, ppc64le, riscv64.'
     required: false
     default: 'aarch64'
   distro:
